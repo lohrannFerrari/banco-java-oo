@@ -1,5 +1,6 @@
 package banco;
 
-public class ContaPoupanca {
+public class ContaPoupanca extends Conta {
 
+	
 }
