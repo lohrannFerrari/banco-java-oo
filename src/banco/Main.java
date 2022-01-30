@@ -4,12 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		Conta cc = new ContaCorrente();
-		Conta cp = new ContaCorrente();
+		Conta poupanca = new ContaPoupanca();
 		
 		
-		System.out.println();
-		
-		
+		cc.imprimirExtrato();
+		poupanca.imprimirExtrato();
 		
 		
 		
